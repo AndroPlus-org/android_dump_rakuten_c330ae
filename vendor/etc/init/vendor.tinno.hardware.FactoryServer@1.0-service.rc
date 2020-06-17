@@ -1,0 +1,10 @@
+service factory_server-1-0 /vendor/bin/hw/vendor.tinno.hardware.FactoryServer@1.0-service
+    class hal
+    user root
+    group system
+
+on property:vendor.execmd.fs=1
+    stop factory_server-1-0
+    start factory_server-1-0
+
+

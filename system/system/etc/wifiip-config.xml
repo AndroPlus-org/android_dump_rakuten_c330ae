@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resources>
+		<setting type="system" ipaddr="192.168.1.3" ssidap="C330_1" keyap="1234567890"/>
+		<setting type="secure" ipaddr="192.168.1.3" ssidap="C330_2" keyap="1234567890"/>
+		<setting type="global" ipaddr="192.168.1.3" ssidap="C330_3" keyap="1234567890"/>
+		<setting type="common" ipaddr="192.168.1.3" ssidap="C330_4" keyap="1234567890"/>
+		<setting type="special" ipaddr="192.168.1.3" ssidap="C330_5" keyap="1234567890"/>
+		<setting type="attention" ipaddr="192.168.1.3" ssidap="C330_6" keyap="1234567890"/>
+</resources>

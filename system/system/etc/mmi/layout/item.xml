@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2015 Qualcomm Technologies, Inc. All Rights Reserved.
+    Qualcomm Technologies Proprietary and Confidential.
+-->
+<layout>	      
+   <listview
+        name="list_view1"
+        onclick="switch_module"
+        w_rel="70"
+        h_rel="90"
+        x_rel="0"
+        y_rel="3"/>
+   <button
+        name="main_pageup"
+        onclick="do_page_up"
+        text="btn_pageup"
+        w_rel="20"
+        h_rel="20"
+        x_rel="80"
+        y_rel="20"
+        color="0x666666ff" />
+  <button
+        name="main_pagedown"
+        onclick="do_page_down"
+        text="btn_pagedown"
+        w_rel="20"
+        h_rel="20"
+        x_rel="80"
+        y_rel="45"
+        color="0x666666ff" />
+  <button
+        name="exit"
+        onclick="do_exit"
+        text="exit"
+        w_rel="20"
+        h_rel="20"
+        x_rel="80"
+        y_rel="70"
+        color="0x666666ff" />
+</layout>

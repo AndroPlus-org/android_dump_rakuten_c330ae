@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<config>
+    <group name="Log Config">
+        <prop name="persist.tinno.mdlog.files" description="modem log file max number" type="String" value="5|10|20"/>
+        <prop name="persist.tinno.mdlog.size" description="modem log file max size in MB" type="String" value="300|600|900"/>
+        <prop name="persist.tinno.log.num" description="how may exp log you can saved" type="String" value="10|50|100"/>        
+		<prop name="persist.tinno.thermal" description="thermal will print the sensor temperature in period" type="String" value="5|10|30|60|300|600"/>
+    </group>
+
+	<group name="Framework">    	
+    	<prop name="persist.tdf.looper.time" description="show the process Time for each message in the looper" type="String" value="0|400"/>
+    	<prop name="persist.tdf.looper.all" description="Print all message in message queue of each process" type="Boolean"/>
+    	<prop name="persist.tdf.ams.bc" description="show the AMS broadcast Message log" type="Boolean"/>    	
+    </group>
+    
+    <group name="Smart Standby Power">
+    	<prop name="persist.tinno.debug.ssm" description="show all the SSM log" type="Boolean"/>    	
+    	<prop name="persist.tinno.debug.ssm.pms" description="show the SSM log of Power Manager Service" type="Boolean"/>    	
+    	<prop name="persist.tinno.debug.ssm.ams" description="show the SSM log of Alarm Manager Service" type="Boolean"/>    	
+    	<prop name="persist.tinno.debug.ssm.lms" description="show the SSM log of Location Manager Service" type="Boolean"/>    	
+    	<prop name="persist.tinno.PowerSave" description="Config Smart Power Save, open(1)/close(0)" type="String" value="0|1"/>    	
+    </group>
+
+    <group name="Telephony">    	
+        <prop name="persist.tcf.mms.firewall" description="enable the mms firewall" type="Boolean"/>
+        <prop name="persist.tcf.ss.custom" description="enable the signalstrength custom" type="Boolean"/>
+        <prop name="persist.tcf.fast.reg.4g" description="Fast register to 4G" type="Boolean"/>
+        <prop name="persist.tcf.hotswap.restart" description="Auto restart after hotswap" type="Boolean"/>
+        <prop name="persist.tcf.antenna.enable" description="AntennaControllers Enabled" type="Boolean"/>
+    </group>
+    
+    <group name="USB Debug">    
+    	<prop name="persist.sys.usb.config" description="make the usb mode change to debug mode" type="String" value="diag,serial_cdev,rmnet,dpl,adb|charging|none"/>
+    	<prop name="persist.sys.usb.config.extra" description="enabled Modem/Diagnostic/RNDIS at the same time" type="String" value="serial_smd,diag|none"/>
+    </group>
+
+    <group name="Touch Panel">
+        <prop name="persist.tinno.debug.k" description="tp log switch" type="String" value="tpdebug_0|tpdebug_1|miscreset"/>
+    </group>
+
+    <group name="force warm reset">
+        <prop name="persist.tinno.debug.wrst" description="force warm reset for lastkmsg log" type="Boolean"/>
+    </group>
+
+    <group name="sar backoff control">
+        <prop name="persist.sys.FCCDegradePowerOfSAR" description="enable/disable sar backoff feature" type="Boolean"/>
+    </group>
+
+</config>

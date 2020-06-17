@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resources>
+	<setting type="system" name="screen_brightness" value="127"/>
+	<setting type="system" name="vibrate_when_ringing" value="1"/>
+	<setting type="system" name="status_bar_show_battery_percent" value="1"/>
+	<setting type="secure" name="theme_mode" value="1"/>
+	<setting type="system" name="font_scale" value="1.15"/>
+	<setting type="secure" name="default_input_method" value="jp.co.omronsoft.iwnnime.ml_rm/.standardcommon.IWnnLanguageSwitcher"/>
+	<setting type="secure" name="enabled_input_methods" value="com.google.android.googlequicksearchbox/com.google.android.voicesearch.ime.VoiceInputMethodService:com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME:jp.co.omronsoft.iwnnime.ml_rm/.standardcommon.IWnnLanguageSwitcher"/>
+	<setting type="secure" name="leather_sheath" value="1"/>
+	<setting type="system" name="tethering_icon" value="0"/>
+	<setting type="system" name="display_shortcut_icon" value="1"/>
+	<setting type="system" name="display_shortcut_location" value="0"/>
+</resources>

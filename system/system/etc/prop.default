@@ -1,0 +1,56 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.actionable_compatible_property.enabled=true
+ro.secure=1
+security.perf_harden=1
+ro.adb.secure=1
+ro.allow.mock.location=0
+ro.debuggable=0
+dalvik.vm.image-dex2oat-Xms=64m
+dalvik.vm.image-dex2oat-Xmx=64m
+dalvik.vm.dex2oat-Xms=64m
+dalvik.vm.dex2oat-Xmx=512m
+dalvik.vm.usejit=true
+dalvik.vm.usejitprofiles=true
+dalvik.vm.dexopt.secondary=true
+dalvik.vm.appimageformat=lz4
+pm.dexopt.first-boot=quicken
+pm.dexopt.boot=verify
+pm.dexopt.install=speed-profile
+pm.dexopt.bg-dexopt=speed-profile
+pm.dexopt.ab-ota=speed-profile
+pm.dexopt.inactive=verify
+pm.dexopt.shared=speed
+dalvik.vm.dex2oat-minidebuginfo=true
+debug.atrace.tags.enableflags=0
+ro.project=trunk
+ro.target=c330ae
+ro.opa.eligible_device=true
+ro.setupwizard.mode=OPTIONAL
+setupwizard.feature.predeferred_enabled=false
+ro.com.google.gmsversion=9_202001
+#
+# BOOTIMAGE_BUILD_PROPERTIES
+#
+ro.bootimage.build.date=Thu May 21 16:26:10 CST 2020
+ro.bootimage.build.date.utc=1590049570
+ro.bootimage.build.fingerprint=Rakuten/C330/C330:9/PKQ1.190616.001/253:user/release-keys
+persist.sys.usb.config=none
+
+#
+# PLATFORM_PROPERTIES START
+#
+ro.pt.Model_number=C330
+audio.camerasound.force=true
+ro.pt.BT_name=C330
+ro.pt.Wifi_hotspot_name=C330
+ro.pt.wifi_direct_name=C330
+ro.tinno.operator=japan
+persist.sys.timezone=Asia/Tokyo
+persist.sys.locale=ja-JP
+ro.feature.home_wallpaper_keep_still=true
+ro.feature.show_tethering_widget_menu=true
+#
+# PLATFORM_PROPERTIES END
+#

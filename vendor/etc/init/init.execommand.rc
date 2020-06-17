@@ -1,0 +1,21 @@
+on post-fs-data
+    mkdir /data/vendor/execommand 2770 root system
+    chmod 2770 /data/vendor/execommand
+
+service execommand_svc /vendor/bin/execommand
+    class late_start
+    user root
+    group system nfc
+    oneshot
+    disabled
+
+on property:vendor.execmd.trigger=0
+    stop execommand_svc
+
+on property:vendor.execmd.trigger=1
+    start execommand_svc
+
+# get serinlno by init.
+on property:vendor.execmd.getsn=1
+    setprop vendor.execmd.sn ${ro.serialno}
+

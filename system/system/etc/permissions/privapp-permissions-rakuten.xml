@@ -1,0 +1,46 @@
+<permissions>
+<privapp-permissions package="com.rakuten.launcher3">
+    <permission name="android.permission.BIND_APPWIDGET"/>
+</privapp-permissions>
+<privapp-permissions package="com.myos.camera">
+    <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+    <permission name="android.permission.UPDATE_DEVICE_STATS"/>
+</privapp-permissions>
+<privapp-permissions package="com.android.phone">
+    <permission name="android.permission.FORCE_STOP_PACKAGES"/>
+</privapp-permissions>
+<privapp-permissions package="com.ape.photos.editor">
+    <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+    <permission name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+</privapp-permissions>
+<privapp-permissions package="com.ape.soundrecorder">
+    <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+    <permission name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+</privapp-permissions>
+<privapp-permissions package="com.android.test.soundtrigger.generic">
+    <permission name="android.permission.MANAGE_SOUND_TRIGGER"/>
+    <permission name="android.permission.CAPTURE_AUDIO_HOTWORD"/>
+</privapp-permissions>
+<privapp-permissions package="com.tcf.engineermode">
+    <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+</privapp-permissions>
+<privapp-permissions package="com.ta.autest">
+    <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <permission name="android.permission.OVERRIDE_WIFI_CONFIG"/>
+</privapp-permissions>
+<privapp-permissions package="com.friendly.foda">
+    <permission name="android.permission.ACCESS_CACHE_FILESYSTEM"/>
+    <permission name="android.permission.RECOVERY"/>
+    <permission name="android.permission.INSTALL_PACKAGES"/>
+    <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+    <permission name="android.permission.UPDATE_DEVICE_STATS"/>
+    <permission name="android.permission.BATTERY_STATS"/>
+    <permission name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <permission name="android.permission.WRITE_APN_SETTINGS"/>
+    <permission name="android.permission.DELETE_CACHE_FILES"/>
+    <permission name="android.permission.REBOOT"/>
+    <permission name="android.permission.DELETE_PACKAGES"/>
+</privapp-permissions>
+</permissions>
+

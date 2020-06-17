@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout>
+   
+   <button
+        name="main_status"
+        onclick="do_Item_run_all"
+        text="btn_ItemTest"
+        w_rel="100"
+        h_rel="9"
+        x_rel="0"
+        y_rel="9"
+        x_abs="0"
+        color="0x00FF00" />   
+   <button
+        name="main_finsh"
+        onclick="do_finish"
+        text="btn_finish"
+        h_rel="16"
+        w_rel="49"
+        x_rel="0"
+        y_rel="84"
+        color="0x007D7Dff" />
+  <button
+        name="main_reboot"
+        text="btn_reboot"
+        onclick="do_reboot"
+        h_rel="16"
+        w_rel="48"
+        x_rel="51"
+        y_rel="84"
+        color="0x007D7Dff" />
+    <button
+        name="main_line_hori"
+        w_rel="100"
+        h_abs="2"
+        x_rel="0"
+        y_rel="9"
+        color="0x666666ff"/>
+   <button
+        name="main_line_hori"
+        w_rel="100"
+        h_abs="2"
+        x_rel="0"
+        y_rel="18"
+        color="0x666666ff"/>     
+
+</layout>
